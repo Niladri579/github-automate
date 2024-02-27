@@ -3,7 +3,7 @@
 variable "ssh_key_private" {
   description = "Path to the private key used to access instances via ssh"
   type        = string
-  default     = "/Users/avgust/.ssh/avgustKey.pem"
+  default     = "/Users/ubuntu/.ssh/git.pem"
 }
 variable "playbook_path" {
   description = "Path to ansible playbook to be executed with the created host as inventory"
