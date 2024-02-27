@@ -1,13 +1,12 @@
 name: Deploy Infrastructure
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:  
 
 jobs:
-  deploy:
+  checkout:
     runs-on: ubuntu-latest
+
 
     steps:
       - name: Checkout code
